@@ -18,9 +18,9 @@ export default function Input({label, type = 'text', ...props}: InputProps) {
         {isPasswordType && (
           <span onClick={() => setShowPassword(!showPassword)} className='cursor-pointer ml-2'>
           {showPassword ? (
-            <FaReqEye size={20} className='text-primary' />
+            <FaRegEye size={20} className='text-primary' />
           ) : (
-            <FaReqEyeSlash size={20} className='text-slate-400' />
+            <FaRegEyeSlash size={20} className='text-slate-400' />
           )}
           </span>
         )}

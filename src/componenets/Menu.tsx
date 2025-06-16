@@ -25,10 +25,10 @@ export default function Menu() {
         {menuItems.map((item, index) => {
           const isActive = location.pathname === item.href;
           return (
-            <li key={index} className='list-none'>
+            <li key={index} className='list-none px-2'>
               <NavLink
                 to={item.href}
-                className={`flex items-center gap-2 p-3 transition ${
+                className={`flex items-center gap-2 py-4 transition ${
                   isActive
                     ? 'border-b-2 border-blue-500 text-blue-700 font-semibold'
                     : 'text-gray-700 hover:bg-blue-50'

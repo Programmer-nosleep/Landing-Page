@@ -9,8 +9,10 @@ export default function Contact() {
     document.title = 'Contact | Sistem Pengajuan Proposal Mahasiswa';
   }, []);
   return (
-    <div className=''>
-      Contact
+    <div className='flex flex-col min-h-screen'>
+      <Navbar />
+      <Menu />
+      <Footer />
     </div>
   );
 }

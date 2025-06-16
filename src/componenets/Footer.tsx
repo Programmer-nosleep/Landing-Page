@@ -22,8 +22,8 @@ export default function Footer() {
   const location = useLocation();
 
   return (
-    <footer className="bg-gray-100 border-t border-gray-300 py-10 px-4">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+    <footer className="bg-gray-100 border-t border-gray-300 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 py-8 gap-10">
         
         {/* Kolom 1: Menu Navigasi */}
         <div>
@@ -75,10 +75,9 @@ export default function Footer() {
             Digitalisasi proses pengajuan proposal mahasiswa.
           </p>
         </div>
-      </div>
-
+      </div> 
       {/* Copyright */}
-      <div className="mt-10 text-center text-sm text-gray-500">
+      <div className="mt-10 text-center text-sm text-gray-500 py-5">
         &copy; {new Date().getFullYear()} Sistem Pengajuan Proposal Mahasiswa. All rights reserved.
       </div>
     </footer>

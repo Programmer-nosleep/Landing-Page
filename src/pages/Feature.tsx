@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
-import Navbar from '../componenets/Navbar.tsx';
-import Menu from '../componenets/Menu.tsx';
-import Footer from '../componenets/Footer.tsx';
+import Navbar from "../componenets/Navbar";
+import Menu from "../componenets/Menu";
+import Footer from "../componenets/Footer";
 
 export default function Feature() {
-  useEffect(() => {
-    document.title = 'Home | Sistem Pengajuan Proposal Mahasiswa';
-  }, []);
   return (
-    <div className=''>
-      
+    <div className='flex flex-col min-h-screen'>
+      <Navbar />
+      <Menu />
+      <Footer />
     </div>
   );
 }

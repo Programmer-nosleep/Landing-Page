@@ -12,10 +12,10 @@ export default function AppRouter() {
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        {/* <Route path='/feature' element={<Feature />}> */}
-        {/* <Route path='/about-us' element={<About />}> */}
-        {/* <Route path='/contact' element={<Contact />}> */}
-        {/* <Route path='/faq' element={<Faq />}/>  */}
+        <Route path='/feature' element={<Feature />} />
+        <Route path='/about-us' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/faq' element={<Faq />} />
       </Routes>
     </Router>
   );
